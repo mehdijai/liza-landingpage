@@ -1,0 +1,108 @@
+@import url(./animations.css);
+
+/* Navigation */
+@import url(./sections/navigation.css);
+
+/* Hero Section */
+@import url(./sections/hero.css);
+
+/* Deals Section */
+@import url(./sections/deals.css);
+
+/* Contact Section */
+@import url(./sections/contact.css);
+
+/* Footer Section */
+@import url(./sections/footer.css);
+
+:root {
+    --nav-link-border: 3px;
+    --color-white: #fff;
+    --color-gray-light: #ececec;
+    --color-gray-100: #A8A8A8;
+    --color-gray-200: #767676;
+    --color-gray-dark: #484848;
+    --color-deep-purple: #6b43b0;
+    --color-black: #2a2730;
+    --color-light-blue: #a6d5df;
+    --color-dark-blue: #202A36;
+    --transition-color: color 0.4s ease-in, background 0.4s ease-in, border-color 0.3s ease-out;
+    --nav-height: 63.2px;
+}
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    color: var(--color-black);
+}
+
+/* Components */
+.button {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    border-radius: 50px;
+    padding: 10px 30px;
+    display: block;
+    text-decoration: none;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid transparent;
+    transition: var(--transition-color);
+}
+
+.button:hover {
+    background-color: var(--color-white);
+    color: var(--color-black);
+    border-color: var(--color-gray-dark);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    font-size: 2rem;
+}
+
+section {
+    padding: 70px 80px;
+}
+
+section article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+}
+
+section figcaption {
+    text-align: center;
+    margin-top: 15px;
+    text-transform: uppercase;
+    color: var(--color-gray-dark);
+    font-weight: 600;
+}
+
+section img {
+    border-radius: 35px;
+    filter: drop-shadow(0 0 10px #5a686b2b);
+    border: 1px solid #fff;
+    margin: 0 auto;
+    display: block;
+}
+
+input,
+textarea {
+    padding: 6px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid var(--color-gray-100);
+    background-color: var(--color-white);
+}

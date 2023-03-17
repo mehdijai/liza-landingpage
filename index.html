@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Blog</title>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav-bar">
+            <li><a class="link" href="/">Home</a></li>
+            <li><a class="link" href="/#brands">Brands</a></li>
+            <li><a class="link" href="/#offers">Offers</a></li>
+            <li><a class="link" href="/#promotions">Promotions</a></li>
+            <li><a class="link" href="/#about-us">About us</a></li>
+            <li><a href="/#contact" class="button">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="col-1">
+            <h1>Liza Beauty Products</h1>
+            <p>
+                LYZA beauty products adopts a strong cultural and ethical approach to business
+            </p>
+            <a href="/#brands" class="button cta">Brands</a>
+        </div>
+        <div class="col-2">
+            <img src="./images/hero-bg.png" alt="Hero">
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="brands" class="brands">
+        <h2>Our products</h2>
+        <article>
+            <figure>
+                <img src="./images/img-1.png" alt="Night Creams">
+                <figcaption>
+                    Night Creams
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/img-2.png" alt="Sun Screens">
+                <figcaption>
+                    Sun Screens
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/img-3.png" alt="Moisturizers">
+                <figcaption>
+                    Moisturizers
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <!-- deals Section -->
+    <section id="offers" class="offers">
+        <h2>Deals of the day</h2>
+        <article>
+            <figure>
+                <div class="coupon">
+                    <div class="icon">
+                        <img src="./images/check-icon.svg" alt="check icon">
+                    </div>
+                    <div class="content">
+                        10% OFF at FIRST orders !
+                    </div>
+                </div>
+                <figcaption>
+                    Code: first
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="coupon">
+                    <div class="icon">
+                        <img src="./images/check-icon.svg" alt="check icon">
+                    </div>
+                    <div class="content">
+                        15% OFF on orders above Rs.1000 !
+                    </div>
+                </div>
+                <figcaption>
+                    CODE : LYZA1000
+                </figcaption>
+            </figure>
+            <figure>
+                <div class="coupon">
+                    <div class="icon">
+                        <img src="./images/check-icon.svg" alt="check icon">
+                    </div>
+                    <div class="content">
+                        25% OFF on orders above RS.2000 !
+                    </div>
+                </div>
+                <figcaption>
+                    CODE : LYZA2000
+                </figcaption>
+            </figure>
+        </article>
+    </section>
+
+    <!-- promotions Section -->
+    <section id="promotions" class="promotions">
+        <h2>Best sellers</h2>
+        <article>
+            <figure>
+                <img src="./images/img-2-1.png" alt="Nail colors">
+                <figcaption>
+                    Nail colors
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/img-2-2.png" alt="Night cream">
+                <figcaption>
+                    Night cream
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/img-2-3.png" alt="Shades">
+                <figcaption>
+                    Shades
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="./images/img-2-4.png" alt="Lipstick">
+                <figcaption>
+                    Lipstick
+                </figcaption>
+            </figure>
+        </article>
+
+    </section>
+
+    <!-- contact Section -->
+    <section id="contact" class="contact">
+        <div class="col-1">
+            <h2>
+                Lets Talk With Our Awesome Team
+            </h2>
+            <p>
+                We offer high quality Products, contact us or visit us today for more information
+            </p>
+            <ul class="contact-list">
+                <li>
+                    <div class="icon">
+                        <img src="./images/call.png">
+                    </div>
+                    <div class="content">
+                        <span class="type">Call</span>
+                        <span class="value">+91 9234567890</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="./images/mail.png">
+                    </div>
+                    <div class="content">
+                        <span class="type">Email</span>
+                        <span class="value">lyzabeautyproducts@gmail.com</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="icon">
+                        <img src="./images/location.png">
+                    </div>
+                    <div class="content">
+                        <span class="type">Location</span>
+                        <span class="value">Bengaluru, Karnataka</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <form>
+                <label for="name">Your name</label>
+                <input type="text" name="name" id="name" placeholder="Full name here" required>
+
+                <label for="mail">Your mail</label>
+                <input type="email" name="mail" id="mail" placeholder="Your email address" required>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="10" required></textarea>
+
+                <button class="button">
+                    Send message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer Section -->
+    <footer class="footer">
+        <section class="newsletter">
+            <p>
+                We have better quality produtcs! For more info join us !
+            </p>
+            <form>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                <button>Join now</button>
+            </form>
+        </section>
+        <section class="links">
+            <h3>Products</h3>
+            <ul>
+                <li><a href="#">Sun screens</a></li>
+                <li><a href="#">MOISTURIZERS</a></li>
+                <li><a href="#">NIGHT CREAMS</a></li>
+                <li><a href="#">BEAUTY PRODUCTS</a></li>
+            </ul>
+        </section>
+        <section class="links">
+            <h3>Helpful links</h3>
+            <ul>
+                <li><a href="#" target="_blank">lyzabeautyproducts.com</a></li>
+                <li><a href="#" target="_blank">lyza app</a></li>
+                <li><a href="#" target="_blank">Blog</a></li>
+            </ul>
+        </section>
+    </footer>
+</body>
+
+</html>

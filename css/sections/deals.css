@@ -1,0 +1,37 @@
+.offers {
+    background-color: var(--color-light-blue);
+    --coupon-icon-size: 50px;
+    --coupon-padding: 20px;
+}
+
+.coupon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-radius: calc(var(--coupon-icon-size) + var(--coupon-padding));
+    padding: var(--coupon-padding);
+    background-color: var(--color-dark-blue);
+    max-width: 350px;
+}
+
+.coupon .icon {
+    width: var(--coupon-icon-size);
+    aspect-ratio: 1;
+    background-color: var(--color-gray-100);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.coupon svg {
+    width: 100%;
+}
+
+.coupon .content {
+    color: var(--color-white);
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
